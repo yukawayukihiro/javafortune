@@ -22,7 +22,7 @@ public class Main extends Thread {
                 System.out.println("今日の運勢は小吉です。");
                 break;
             case 4:
-                System.out.println("今日がお前の命日だよ");
+                System.out.println("\u001b[00;31m" + "今日がお前の命日だよ" + "\u001b[00m");
                 Thread.sleep(3000);
                 System.out.println("アソブ?");
                 break;
@@ -50,8 +50,22 @@ public class Main extends Thread {
             System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
             Thread.sleep(2000);
             System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
+            Thread.sleep(2000);
+            System.out.println("アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?アソブ!アソブ?");
             Thread.sleep(5000);
-            System.out.println("\u001b[00;31m" + "う・し・ろ" + " \u001b[00m");
+            System.out.println("\u001b[00;31m" + "う・し・ろ" + "\u001b[00m");
         }
     }
 }
