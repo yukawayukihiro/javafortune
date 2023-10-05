@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main (String[] args) {
+public class Main extends Thread {
+    public static void main (String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("占いを開始します。");
@@ -23,12 +23,26 @@ public class Main {
                 break;
             case 4:
                 System.out.println("今日がお前の命日だよ");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                System.out.println("アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？アソブ？");
+                Thread.sleep(5000);
+                System.out.println("\u001b[00;31m" + "うしろ" + " \u001b[00m");
                 break;
             default:
                 System.out.println("今日の運勢は吉です。");
                 break;
         }
-
         System.out.println("占いを終了します。");
     }
 }
